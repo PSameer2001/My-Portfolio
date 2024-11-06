@@ -484,6 +484,7 @@ section {
 
 .main-text .heading {
     color: var(--main-color);
+    margin-top: 3rem;
 }
 
 .main-text span {
