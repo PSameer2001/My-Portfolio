@@ -5,7 +5,6 @@ let navlist = document.querySelector(".navlist")
 // remove navlist
 navlist.addEventListener("click",()=>{
     navlist.classList.remove("active");
-    menuIcon.classList.remove("active");
     document.body.classList.remove("open");
 })
 
@@ -31,7 +30,7 @@ let section = document.querySelectorAll('section');
 
 function activeMenu(){
     let len = section.length;
-    while(--len && window.scrollY + 97 < section[len].offsetTop){}
+    while(--len && window.scrollY + 150 < section[len].offsetTop){}
     menuLi.forEach(sec => sec.classList.remove("active"));
     
     menuLi[len].classList.add("active");
