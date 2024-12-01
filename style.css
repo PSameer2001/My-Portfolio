@@ -535,7 +535,6 @@ section {
 }
 
 .servicesItem:hover i {
-    outline: 1px solid var(--main-color);
     transform: scale(1.2);
 }
 
